@@ -1,0 +1,21 @@
+{
+    "name": "milind/paypal",
+    "description": "This package is used for PayPal connection with laravel5.6+",
+    "type": "library",
+    "require": {
+        "paypal/rest-api-sdk-php": "^1.13"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Milind",
+            "email": "ma353353@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Milind\\Paypal\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
